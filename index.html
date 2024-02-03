@@ -20,21 +20,39 @@
             <ul class="logo">
               <li><a class="big-logo-text" href="/">Creatic</a></li>
               <li><a class="small-logo-text" href="/">Creavite agency</a></li>
+              <div class="menu"><i class="fas fa-bars"></i></div>
             </ul>
           </div>
           
           <div class="menu">
             <ul>
-              <li><a class="" href="/">Home</a></li>
-              <li><a class="" href="/">About Us</a></li>
-              <li><a class="" href="/">Services</a></li>
-              <li><a class="" href="/">Portfolio</a></li>
-              <li><a class="" href="/">Pages</a></li>
-              <li><a class="" href="/">Contact Us</a></li>
+              <li><a href="" onclick="return slowScroll('.nav')">Home</a></li>
+              <li><a href="" onclick="return slowScroll('.about-us')">About Us</a></li>
+              <li><a href="" onclick="return slowScroll('.services')">Services</a></li>
+              <li><a href="" onclick="return slowScroll('.portfolio')">Portfolio</a></li>
+              <li><a href="" onclick="return slowScroll('.pages')">Pages</a></li>
+              <li><a href="" onclick="return slowScroll('.contact')">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="mobile-menu">
+            <ul>
+                <!-- При натисканні буде перекидати на ту частину сайту -->
+                <li><a href="" onclick="return slowScroll('.nav')">Home</a></li>
+                <li><a href="" onclick="return slowScroll('.about-us')">About Us</a></li>
+                <li><a href="" onclick="return slowScroll('.services')">Services</a></li>
+                <li><a href="" onclick="return slowScroll('.portfolio')">Portfolio</a></li>
+                <li><a href="" onclick="return slowScroll('.pages')">Pages</a></li>
+                <li><a href="" onclick="return slowScroll('.contact')">Contact Us</a></li>
             </ul>
           </div>
         </div>
     </header>
-      
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/c41c99b4cf.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./public/js/main-min.js"></script>
+
 </body>
 </html>
