@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "vars";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: $blackColor;
+    color: $whiteColor;
+}
+
+* {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Стилі для шапки 
+
+.header {
+    margin-top: 15px;
+
+    .navigation {
+        .list-logo,
+        .menu {
+            text-decoration: none;
+            list-style-type: none;
+
+            .logo,
+            .nav-menu {
+                color: $whiteColor;
+            }
+
+            .nav-menu {
+                font-size: 21px;
+            }
+
+            .logo {
+                text-align: center;
+
+                .big-logo-text {
+                    font-size: 50px;
+                    font-weight: 600;
+                    color: $blueColor;
+                }
+
+                .small-logo-text {
+                    font-size: 14px;
+                    font-weight: 400px;
+                }
+            }
+        }
+    }
+}
+  
